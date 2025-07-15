@@ -43,18 +43,18 @@ body {
 
 a {
 	text-decoration: none;
-	&:link {
-		color: var(--text-color);
-	}
-	&:visited {
-		font-size: initial;
-	}
-	&:hover {
-		text-decoration: underline;
-	}
-	&:active {
-		background: var(--color-light-grey);
-	}
+}
+a:link {
+	color: var(--text-color);
+}
+a:visited {
+	font-size: initial;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	background: var(--color-light-grey);
 }
 
 h1,
