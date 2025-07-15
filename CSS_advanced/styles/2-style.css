@@ -2,10 +2,7 @@ html {
 	scroll-behavior: smooth;
 }
 
-body {
-	background: #161616;
-}
-
+body,
 a {
 	color: #161616;
 }
